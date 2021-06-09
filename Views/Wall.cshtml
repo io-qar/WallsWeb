@@ -1,0 +1,28 @@
+﻿@model WallsWeb.Models.Wall
+
+@{
+	ViewBag.Title = "Wall";
+}
+<h1>@Model.Theme</h1>
+<div>@Model.SideLeft.Title</div>
+<div>ё
+<ul>
+	@foreach(var comment in @Model.SideLeft.Comments)
+	{
+		<li>@comment.Text</li>
+	}
+</ul>
+</div>
+<div>@Model.SideLeft.Title</div>
+<div>
+<ul>
+	@foreach(var comment in @Model.SideRight.Comments)
+	{
+		<li>@comment.Text</li>
+	}
+</ul>
+</div>
+<p>
+	@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+	@Html.ActionLink("Back to List", "Index")
+</p>
