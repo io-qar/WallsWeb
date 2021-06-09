@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<Walls>
+  <Wall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Id>1</Id>
+    <Theme>Theme 1</Theme>
+    <Description>Description 1</Description>
+    <SideLeft>
+      <Id>1</Id>
+      <Title>Title Side 1</Title>
+      <Comments>
+        <Comment>
+          <Id>1</Id>
+          <Text>Text</Text>
+          <Rating>1</Rating>
+        </Comment>
+        <Comment>
+          <Id>3</Id>
+          <Text>Text sccszxc</Text>
+          <Rating>1</Rating>
+        </Comment>
+      </Comments>
+    </SideLeft>
+    <SideRight>
+      <Id>2</Id>
+      <Title>Title Side 2</Title>
+      <Comments>
+        <Comment>
+          <Id>2</Id>
+          <Text>Text 2</Text>
+          <Rating>2</Rating>
+        </Comment>
+      </Comments>
+    </SideRight>
+  </Wall>
+</Walls>
